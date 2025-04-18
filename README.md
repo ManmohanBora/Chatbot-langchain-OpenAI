@@ -13,8 +13,14 @@ This project is a simple, clean, and powerful demo showcasing how to build an in
 ### 1. Clone the Repository
 ```bash
 https://github.com/ManmohanBora/Chatbot-langchain-OpenAI.git
-
+```
 ### 2. Install Dependencies
 ```bash
+pip install -r requirements.txt
+streamlit
+langchain
+langchain-openai
+python-dotenv
+
 
 
