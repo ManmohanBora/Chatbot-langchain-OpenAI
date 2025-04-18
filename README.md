@@ -1,1 +1,1 @@
-# Chatbot-langchain-OpenAI
+langchain-openai-streamlit-demo/ ├── app.py # Main Streamlit application ├── .env # Stores API keys securely (not committed) ├── requirements.txt # Python dependencies └── README.md # Project overview
