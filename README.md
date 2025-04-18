@@ -21,6 +21,22 @@ streamlit
 langchain
 langchain-openai
 python-dotenv
+```
+### 3. Add API Keys
+Create a .env file in the root directory and add your keys:
+```bash
+OPENAI_API_KEY=your_openai_api_key
+LANGCHAIN_API_KEY=your_langchain_api_key
+```
+### 4. Run the App
+```bash
+streamlit run app.py
+```
+## 💡 How It Works
+- User enters a question in the Streamlit UI.
+- The question is formatted using a LangChain ChatPromptTemplate.
+- The formatted input is passed to OpenAI's GPT-4.1 model.
+- The response is parsed and displayed back in the app.
 
-
-
+## 📸 Demo Screenshot
+![Screenshot 2025-04-18 114832](https://github.com/user-attachments/assets/c8c6db13-88b2-4fe1-8776-f832a0b15059)
